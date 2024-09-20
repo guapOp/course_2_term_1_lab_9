@@ -27,6 +27,7 @@ void BitcoinWallet::sendFunds(double amount, Wallet& recipient) {
     }
 }
 
+
 EthereumWallet::EthereumWallet(const string& privateKey, const string& address, double initialBalance)
         : Wallet(privateKey, address, initialBalance) {}
 
